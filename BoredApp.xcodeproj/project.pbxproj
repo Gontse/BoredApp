@@ -13,6 +13,19 @@
 		DD2354EF2985735F001CB564 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD2354ED2985735F001CB564 /* Main.storyboard */; };
 		DD2354F129857361001CB564 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD2354F029857361001CB564 /* Assets.xcassets */; };
 		DD2354F429857361001CB564 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD2354F229857361001CB564 /* LaunchScreen.storyboard */; };
+		DD2354FE298573B3001CB564 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2354FD298573B3001CB564 /* APIError.swift */; };
+		DD2355002985744C001CB564 /* APIEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2354FF2985744C001CB564 /* APIEndpoint.swift */; };
+		DD235502298574CE001CB564 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD235501298574CE001CB564 /* HTTPMethod.swift */; };
+		DD23550529857580001CB564 /* ActivityResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD23550429857580001CB564 /* ActivityResponse.swift */; };
+		DD235508298575ED001CB564 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD235507298575ED001CB564 /* Environment.swift */; };
+		DD23550A29857668001CB564 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD23550929857668001CB564 /* APIService.swift */; };
+		DD23550C29857729001CB564 /* TypeAliases.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD23550B29857729001CB564 /* TypeAliases.swift */; };
+		DD23550E29857979001CB564 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD23550D29857979001CB564 /* APIClient.swift */; };
+		DD23551129858030001CB564 /* APIErrorMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD23551029858030001CB564 /* APIErrorMapper.swift */; };
+		DD57BB542986991000839702 /* ActivityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD57BB532986991000839702 /* ActivityViewModel.swift */; };
+		DD57BB5829869D5600839702 /* BoredAppDependencyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD57BB5729869D5600839702 /* BoredAppDependencyContainer.swift */; };
+		DD57BB5A2986C0C500839702 /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD57BB592986C0C500839702 /* ActivityViewController.swift */; };
+		DD6DA499298989AE0068D3FC /* ActivityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD6DA498298989AE0068D3FC /* ActivityViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +37,19 @@
 		DD2354F029857361001CB564 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD2354F329857361001CB564 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD2354F529857361001CB564 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD2354FD298573B3001CB564 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		DD2354FF2985744C001CB564 /* APIEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEndpoint.swift; sourceTree = "<group>"; };
+		DD235501298574CE001CB564 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		DD23550429857580001CB564 /* ActivityResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityResponse.swift; sourceTree = "<group>"; };
+		DD235507298575ED001CB564 /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		DD23550929857668001CB564 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		DD23550B29857729001CB564 /* TypeAliases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeAliases.swift; sourceTree = "<group>"; };
+		DD23550D29857979001CB564 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		DD23551029858030001CB564 /* APIErrorMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIErrorMapper.swift; sourceTree = "<group>"; };
+		DD57BB532986991000839702 /* ActivityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewModel.swift; sourceTree = "<group>"; };
+		DD57BB5729869D5600839702 /* BoredAppDependencyContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoredAppDependencyContainer.swift; sourceTree = "<group>"; };
+		DD57BB592986C0C500839702 /* ActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
+		DD6DA498298989AE0068D3FC /* ActivityViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActivityViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +82,12 @@
 		DD2354E62985735F001CB564 /* BoredApp */ = {
 			isa = PBXGroup;
 			children = (
+				DD57BB5529869C6700839702 /* Cross Cutting Concerns */,
+				DD57BB52298698F100839702 /* Activity */,
+				DD23550F2985800E001CB564 /* Helpers */,
+				DD235506298575D3001CB564 /* Configuration */,
+				DD2355032985756B001CB564 /* Models */,
+				DD2354FB2985737D001CB564 /* Networking */,
 				DD2354E72985735F001CB564 /* AppDelegate.swift */,
 				DD2354E92985735F001CB564 /* SceneDelegate.swift */,
 				DD2354EB2985735F001CB564 /* ViewController.swift */,
@@ -65,6 +97,69 @@
 				DD2354F529857361001CB564 /* Info.plist */,
 			);
 			path = BoredApp;
+			sourceTree = "<group>";
+		};
+		DD2354FB2985737D001CB564 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				DD23550929857668001CB564 /* APIService.swift */,
+				DD23550D29857979001CB564 /* APIClient.swift */,
+				DD2354FC298573A2001CB564 /* Types */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		DD2354FC298573A2001CB564 /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				DD2354FD298573B3001CB564 /* APIError.swift */,
+				DD2354FF2985744C001CB564 /* APIEndpoint.swift */,
+				DD235501298574CE001CB564 /* HTTPMethod.swift */,
+			);
+			path = Types;
+			sourceTree = "<group>";
+		};
+		DD2355032985756B001CB564 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DD23550429857580001CB564 /* ActivityResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DD235506298575D3001CB564 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				DD235507298575ED001CB564 /* Environment.swift */,
+				DD23550B29857729001CB564 /* TypeAliases.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		DD23550F2985800E001CB564 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DD23551029858030001CB564 /* APIErrorMapper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		DD57BB52298698F100839702 /* Activity */ = {
+			isa = PBXGroup;
+			children = (
+				DD57BB532986991000839702 /* ActivityViewModel.swift */,
+				DD57BB592986C0C500839702 /* ActivityViewController.swift */,
+				DD6DA498298989AE0068D3FC /* ActivityViewController.xib */,
+			);
+			path = Activity;
+			sourceTree = "<group>";
+		};
+		DD57BB5529869C6700839702 /* Cross Cutting Concerns */ = {
+			isa = PBXGroup;
+			children = (
+				DD57BB5729869D5600839702 /* BoredAppDependencyContainer.swift */,
+			);
+			path = "Cross Cutting Concerns";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +223,7 @@
 				DD2354F429857361001CB564 /* LaunchScreen.storyboard in Resources */,
 				DD2354F129857361001CB564 /* Assets.xcassets in Resources */,
 				DD2354EF2985735F001CB564 /* Main.storyboard in Resources */,
+				DD6DA499298989AE0068D3FC /* ActivityViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +235,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD2354EC2985735F001CB564 /* ViewController.swift in Sources */,
+				DD235508298575ED001CB564 /* Environment.swift in Sources */,
+				DD2354FE298573B3001CB564 /* APIError.swift in Sources */,
+				DD235502298574CE001CB564 /* HTTPMethod.swift in Sources */,
+				DD57BB542986991000839702 /* ActivityViewModel.swift in Sources */,
 				DD2354E82985735F001CB564 /* AppDelegate.swift in Sources */,
+				DD23550E29857979001CB564 /* APIClient.swift in Sources */,
+				DD23550529857580001CB564 /* ActivityResponse.swift in Sources */,
 				DD2354EA2985735F001CB564 /* SceneDelegate.swift in Sources */,
+				DD57BB5829869D5600839702 /* BoredAppDependencyContainer.swift in Sources */,
+				DD23551129858030001CB564 /* APIErrorMapper.swift in Sources */,
+				DD23550A29857668001CB564 /* APIService.swift in Sources */,
+				DD23550C29857729001CB564 /* TypeAliases.swift in Sources */,
+				DD57BB5A2986C0C500839702 /* ActivityViewController.swift in Sources */,
+				DD2355002985744C001CB564 /* APIEndpoint.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
